@@ -1,22 +1,17 @@
-all
-all_dbs
 amazon
 apache.atlas
 apache.beam
 apache.cassandra
 apache.druid
 apache.hdfs
-apache.hive
 apache.kylin
 apache.livy
 apache.pig
 apache.pinot
 apache.spark
 apache.sqoop
-apache.webhdfs
 async
 atlas
-aws
 azure
 cassandra
 celery
@@ -27,10 +22,6 @@ crypto
 dask
 databricks
 datadog
-devel
-devel_all
-devel_ci
-devel_hadoop
 dingding
 discord
 doc
@@ -40,21 +31,17 @@ elasticsearch
 exasol
 facebook
 ftp
-gcp
-gcp_api
+# gcp
 github_enterprise
 google
-google_auth
 grpc
 hashicorp
 hdfs
-hive
 http
 imap
 jdbc
 jenkins
 jira
-kerberos
 kubernetes
 ldap
 microsoft.azure
@@ -62,8 +49,6 @@ microsoft.mssql
 microsoft.winrm
 mongo
 mssql
-mysql
-odbc
 openfaas
 opsgenie
 oracle
@@ -78,7 +63,7 @@ qds
 qubole
 rabbitmq
 redis
-s3
+# s3
 salesforce
 samba
 segment
@@ -93,10 +78,8 @@ sqlite
 ssh
 statsd
 tableau
-telegram
 vertica
 virtualenv
-webhdfs
 winrm
 yandex
 zendesk

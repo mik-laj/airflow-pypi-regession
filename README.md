@@ -10,6 +10,7 @@ https://github.com/apache/airflow/issues/12838
 
 Run:
 ```
-bash run.sh
+bash run.py google.txt
+bash run.py all.txt
 ```
 Open the logs and compare the results.
