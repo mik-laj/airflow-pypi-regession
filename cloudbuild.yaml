@@ -1,0 +1,15 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+    - 'build'
+    - '-t'
+    - 'gcr.io/my-project-id/myimage'
+    - '--build-arg'
+    - 'AIRFLOW_EXTRAS=${_AIRFLOW_EXTRAS}'
+    - '--build-arg'
+    - 'PIP_INSTALL_ARG=${_PIP_INSTALL_ARG}'
+    - '.'
+
+substitutions:
+  _AIRFLOW_EXTRAS: google
+  _PIP_INSTALL_ARG: pip install -U pip
